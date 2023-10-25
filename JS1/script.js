@@ -7,6 +7,7 @@ console.log(a * b);
 console.log(a / b);
 console.log(a % b);
 
+
 // вывести в консоль hello (ваше имя)
 
 a = 'Hello'
