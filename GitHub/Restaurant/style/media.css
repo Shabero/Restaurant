@@ -1,0 +1,66 @@
+@media(max-width:1300px){
+    .container{
+        padding: 0 12px;
+    }
+    
+    .nav{
+        gap: 15px;
+    }
+}
+
+@media(max-width:1172px){
+    .container{
+        padding: 0 10px;
+    }
+    
+
+    .nav a{
+        font-size: 11px;
+    }
+
+    h2{
+        font-size: 32px;
+    }
+
+    .downloads h2{
+        font-size: 32px;
+    }
+}
+
+@media(max-width:1083px){
+    .col-4{
+        width: 50%;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .mobile-wrapper{
+        display: block;
+    }
+    
+    .mobile-menu{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgb(0,0,0);
+        z-index: 999;
+        gap: 45px;
+    }
+
+    .mobile-wrapper:hover+.mobile-menu{
+        display: flex;
+       
+    }
+
+    .mobile-menu:hover{
+        display: flex;
+    }
+}

@@ -131,6 +131,15 @@ h2,h4,h3,h5{
     transition: 1s;
 }
 
+.mobile-button{
+    background-color: transparent;
+    border: none;
+}
+
+.mobile-wrapper{
+    display: none;
+}
+
 /* Hero */
 
 .box .hero-wrapper{
@@ -348,13 +357,13 @@ h2,h4,h3,h5{
 }
 
 .photo {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
 }
 
-.image-container {
-    white-space: nowrap; 
+.photo img {
+    max-width: 100%;
+    height: auto;
 }
 
-.image-container img {
-    display: inline-block;
-}
